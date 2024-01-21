@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TESTE</title>
+    <link rel="stylesheet" href="./test.css">
+</head>
+<body>
+    
+    <div class="flip" id="card">
+        <div class="face" id="front">
+            Front
+        </div>
+        <div class="face" id="back">
+            Back
+        </div>
+    </div>
+   
+    <script>
+        const card = document.querySelector('#card')
+        card.addEventListener('click', (e) => {
+            card.classList.toggle('flip')
+        })
+   </script>
+</body>
+</html>
