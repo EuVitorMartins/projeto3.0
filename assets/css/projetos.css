@@ -1,0 +1,16 @@
+.container-projetos {
+    background-color: var(--cor-2);
+    padding: 130px 0;
+    position: relative;
+}
+
+.titulo-projetos {
+    font-family: 'Black Han Sans', sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: start;
+    position: absolute;
+    font-size: 5em;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}

@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="./assets/css/padrao.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+
 </head>
 
 <body>
@@ -50,39 +52,172 @@
     </section>
     <section class="sobre">
         <h2 class="titulo-sobre">SOBRE</h2>
-        <div class="sobre-image">
-            <img src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=600">
-        </div>
-        <div class="card-sobre">
-            
-            <div class="card-titulo">
-                <h1>Quem Sou? </h1>
+
+        <div class="cards-sobre">
+
+            <div class="flip card-sobre">
+                <div class="frente sobre-image">
+                    <img
+                        src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=600">
+                </div>
+                <div class="verso sobre-image">
+                    <img
+                        src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=600">
+
+                </div>
             </div>
-            <p>
-                Meu nome é Vitor Martins, tenho 22 anos. Atualmente, estou morando em Sorocaba–SP. Tenho dois gatinhos,
-                Federico e Catarina. <br> No meu tempo livre, gosto de dedicar à minha família, meus principais hobbies são
-                games e programar, sou uma pessoa bem criativa e focada nos meus objetivos.
-            </p>
+            <div class="flip card-sobre">
+                <div class="frente">
+                    <div class="card-titulo">
+                        <h1>Quem Sou? </h1>
+                    </div>
+                    <p>
+                        Meu nome é Vitor Martins, tenho 22 anos. Atualmente, estou morando em Sorocaba–SP. Tenho dois
+                        gatinhos,
+                        Federico e Catarina. <br> No meu tempo livre, gosto de dedicar à minha família, meus principais
+                        hobbies
+                        são
+                        games e programar, sou uma pessoa bem criativa e focada nos meus objetivos.
+                    </p>
+                </div>
+                <div class="verso">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quia dolorem deserunt unde provident
+                        omnis, error perspiciatis, dolor vero voluptatum voluptatem velit, laboriosam vitae. Laboriosam,
+                        fuga! Facilis nesciunt quo aliquam!</p>
+                </div>
+            </div>
+            <div class="flip card-sobre">
+                <div class="frente">
+                    <div class="card-titulo">
+                        <h1>Perfil<br> Profissional</h1>
+                    </div>
+                    <p>
+                        Meu nome é Vitor Martins, tenho 22 anos. Atualmente, estou morando em Sorocaba–SP. Tenho dois
+                        gatinhos,
+                        Federico e Catarina. <br> No meu tempo livre, gosto de dedicar à minha família, meus principais
+                        hobbies
+                        são
+                        games e programar, sou uma pessoa bem criativa e focada nos meus objetivos.
+                    </p>
+                </div>
+                <div class="verso">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quia dolorem deserunt unde provident
+                        omnis, error perspiciatis, dolor vero voluptatum voluptatem velit, laboriosam vitae. Laboriosam,
+                        fuga! Facilis nesciunt quo aliquam!</p>
+                </div>
+            </div>
+
 
         </div>
-        <div class="card-sobre">
-            <div class="card-titulo">
-                <h1>Perfil<br> Profissional</h1>
-            </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores porro aut consectetur! Ut rem atque,
-                ipsam impedit inventore consequatur, sequi illo ratione quam quidem similique natus dolor rerum ipsa
-                aut?
+    </section>
+    <section class="container-skills">
+        <h2 class="titulo-skills">SKILLS</h2>
+        <div class="barra"></div>
+        <div class="box-texto_skills right">
+            <h3>HTML & CSS</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam repudiandae iusto, vel modi
+                consequatur, asperiores aspernatur ipsam quam cumque inventore repellat rerum
             </p>
         </div>
+        <div class="box-texto_skills left">
+            <h3>HTML & CSS</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam repudiandae iusto, vel modi
+                consequatur, asperiores aspernatur ipsam quam cumque inventore repellat rerum
+            </p>
+        </div>
+        <div class="skills-image">
+            <img src="assets/workspace.png" alt="">
+        </div>
+
+        <div class="skills-textos">
+            <div class="box-texto_skills left">
+                <h3>HTML & CSS</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam repudiandae iusto, vel modi
+                    consequatur, asperiores aspernatur ipsam quam cumque inventore repellat rerum
+                </p>
+            </div>
+            <div class="box-texto_skills left">
+                <h3>HTML & CSS</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam repudiandae iusto, vel modi
+                    consequatur, asperiores aspernatur ipsam quam cumque inventore repellat rerum
+                </p>
+            </div>
+        </div>
+        <div class="skills-todas">
+            <ul>
+                <li class="skill-item titulo">
+                    <h2>
+                        Todas <br>
+                        Skills
+                    </h2>
+                </li>
+                <li class="skill-item" data-tooltip="HTML">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+                </li>
+                <li class="skill-item" data-tooltip="CSS3">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+                </li>
+                <li class="skill-item" data-tooltip="JavaScript">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                </li>
+                <li class="skill-item" data-tooltip="React.js">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+                </li>
+                <li class="skill-item" data-tooltip="Node">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain-wordmark.svg" />
+                </li>
+                <li class="skill-item" data-tooltip="MySql">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" />
+                </li>
+                <li class="skill-item" data-tooltip="MongoDB">
+
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain-wordmark.svg" />
+                </li>
+                <li class="skill-item" data-tooltip="NPM">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" />
+                </li>
+                <li class="skill-item" data-tooltip="Bootstrap5">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" />
+                </li>
+                <li class="skill-item" data-tooltip="Git">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
+                </li>
+                <li class="skill-item" data-tooltip="GitHub">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                </li>
+                <li class="skill-item" data-tooltip="Handlebars">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/handlebars/handlebars-original.svg" />
+                </li>
+                <li class="skill-item" data-tooltip="VSCode">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" />
+                </li>
+                <li class="skill-item" data-tooltip="Sequelize">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg" />
+                </li>
+                <li class="skill-item" data-tooltip="Webpack">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg" />
+                </li>
+                <li class="skill-item embreve" data-tooltip="TypeScript">
+                    <img class="skill-item_img"
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
+                </li>
+                <li class="skill-item embreve" data-tooltip="SASS">
+                    <img class="skill-item_img"
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" />
+                </li>
+            </ul>
+        </div>
+
     </section>
-    <section class="skills">
-        <ul>
-            <li>
-                
-            </li>
-        </ul>
+    <section class="container-projetos">
+        <h2 class="titulo-projetos">PROJETOS</h2>
     </section>
     <script src="https://kit.fontawesome.com/5d448974a8.js" crossorigin="anonymous"></script>
+
     <script src="main.js"></script>
 </body>
 
