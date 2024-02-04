@@ -4,6 +4,8 @@
 @import url(./sobre.css);
 @import url(./skills.css);
 @import url(./projetos.css);
+@import url(./contato.css);
+@import url(./footer.css);
 
 
 :root{
@@ -31,6 +33,7 @@ body{
 
 html{
     scroll-behavior: smooth;
+    scroll-padding-top: 80px;
 }
 
 

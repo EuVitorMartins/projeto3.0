@@ -1,6 +1,7 @@
 .container-projetos {
     background-color: var(--cor-2);
-    padding: 130px 0;
+    padding-top: 130px ;
+    padding-bottom: 80px;
     position: relative;
 }
 
@@ -13,4 +14,152 @@
     top: 0;
     left: 50%;
     transform: translateX(-50%);
+}
+
+.projetos{
+    margin: 50px 100px ;
+    padding: 0 50px;
+}
+/* Card */
+
+.card-projeto{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 120px;
+}
+
+.card-projeto_imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-projeto_imagem img {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    position: relative;
+    padding: 10px;
+    border: 4px solid var(--cor-4);
+}
+
+.card-projeto_textos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.card-projeto_textos h3{
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.lista-tecn{
+    display: flex;
+    margin: 25px 0 ;
+    padding-top: 20px;
+    padding-left: 10px;
+    position: relative;
+}
+
+.lista-tecn::before{
+    content: 'Tecnologia Utilizadas;';
+    position: absolute;
+    top: -10px;
+    left: 0;
+    color: rgba(255, 255, 255, 0.5);
+
+
+}
+
+.lista-tecn li{
+    list-style: none;
+    padding: 0 10px;
+}
+
+.projeto-btns{
+    margin: 25px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.projeto-btns .primeiro {
+    padding: 7px 5px;
+    border: 2px solid var(--cor-4);
+
+    border-radius: 5px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    box-shadow: 0px 0px 10px var(--cor-4);
+    transition: all 1s;
+}
+
+.projeto-btns .primeiro:hover {
+    background-color: var(--cor-4);
+    text-shadow: 2px 2px 5px black;
+    box-shadow: 0px 0px 30px var(--cor-4);
+}
+
+.projeto-btns .segundo {
+    padding: 7px 5px;
+    border: 2px solid var(--cor-4);
+    background-color: #facb0fd0;
+    text-shadow: 2px 2px 5px black;
+    border-radius: 5px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    box-shadow: 0px 0px 10px var(--cor-4);
+    transition: all 1s;
+}
+
+.projeto-btns .segundo:hover {
+    background-color: transparent;
+    text-shadow: 2px 2px 5px black;
+    box-shadow: 0px 0px 30px var(--cor-4);
+}
+
+
+
+.card-projeto:nth-child( 2n ) .card-projeto_textos {
+    order: -1;
+}
+
+.projeto-botao{
+    background-color: var(--cor-4);
+    color: black;
+    padding: 5px 10px;
+    font-size: 1.2rem;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    bottom: 80px;
+    transform: translateX(-50%);
+    border-radius: 5px;
+    transition: all 1s;
+    cursor: pointer;
+}
+
+.projeto-botao:hover {
+    background-color: transparent;
+    color: white;
+    text-shadow: 2px 2px 5px rgb(255, 255, 255);
+    box-shadow: 0px 0px 30px var(--cor-4);
+}
+
+.rolagem{
+    
+    animation: ativa 1s ease-in-out;
+}
+
+@keyframes ativa {
+    from{
+        opacity: .5;
+        transform: translateX(-50px);
+    }
+    to{
+       opacity: 1;
+       transform: translateX(0);
+    }
 }

@@ -49,3 +49,72 @@ cards.forEach((card) => {
     })
 })
 
+
+// CARDS PROJETOS
+
+const container = document.querySelector('.projetos');
+const btn = document.querySelector('.projeto-botao');
+let vermais = true
+
+const conteudoCard = (dados) => (`
+    <div class="card-projeto_imagem">
+        <img class="img" src="${dados.imagem}" alt="${dados.titulo}">
+    </div>
+    <div class="card-projeto_textos">
+        <h3>${dados.titulo}</h3>
+        <p>
+        ${dados.descricao}
+        </p>
+        <ul class="lista-tecn">
+        ${dados.techs.map((tech) => (`
+            <li> ${tech } </li>
+        `))}
+        </ul>
+        <div class="projeto-btns">
+            <a href="${dados.linkCodigo}" target="_blank" class="primeiro">Codigo</a>
+            <a href="${dados.linkAcessar}" target="_blank" class="segundo">Acessar</a>
+        </div>
+    </div>
+`)
+
+btn.addEventListener('click', (e) => {
+    e.preventDefault()
+    container.innerHTML = ''
+    //container.classList.toggle('rolagem')
+    if (!vermais) {
+        carregarProjeros()
+        return vermais = true;
+    }
+
+    vermais = false
+    carregarProjeros()
+})
+
+carregarProjeros()
+function carregarProjeros() {
+    fetch('assets/projetos.json').then((res) => res.json()).then((dados) => {
+
+        if (vermais) {
+            const primeirosCard = dados.slice(0, 3);
+            primeirosCard.map((dado) => {
+                const card = document.createElement('div');
+                card.classList.add('card-projeto');
+                card.innerHTML = conteudoCard(dado)
+
+                container.appendChild(card)
+                btn.textContent = 'Ver Todos os Projetos'
+            });
+        } else {
+
+            dados.map((dado) => {
+                const card = document.createElement('div');
+                card.classList.add('card-projeto');
+                card.innerHTML = conteudoCard(dado)
+
+                container.appendChild(card)
+                btn.textContent = 'Ver menos os Projetos'
+            });
+        }
+
+    })
+}

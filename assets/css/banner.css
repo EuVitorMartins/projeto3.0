@@ -21,7 +21,7 @@
 }
 
 .icon-social{
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     opacity: .5;
     transition: all .5s ease-in-out;
 }
@@ -122,4 +122,19 @@
     border-radius: 20px 5px;
     padding: 4px;
     border: 3px solid var(--cor-4);
+}
+.banner-video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    z-index: -1;
+}
+
+.banner-video video{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
 }

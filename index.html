@@ -11,20 +11,25 @@
 </head>
 
 <body>
-    <header class="header">
+    <header class="header" >
         <nav>
-            <a href="#" class="logo">DEV</a>
+            <a href="#" class="logo">PORTFOLIO</a>
             <ul class="nav-links">
-                <li class="nav-link ativo"><a href="#">Home</a></li>
-                <li class="nav-link"><a href="#">Sobre</a></li>
-                <li class="nav-link"><a href="#">Skills</a></li>
-                <li class="nav-link"><a href="#">Projetos</a></li>
-                <li class="nav-link"><a href="#">Contato</a></li>
+                <li class="nav-link ativo"><a href="#home">Home</a></li>
+                <li class="nav-link"><a href="#sobre">Sobre</a></li>
+                <li class="nav-link"><a href="#skills">Skills</a></li>
+                <li class="nav-link"><a href="#projetos">Projetos</a></li>
+                <li class="nav-link"><a href="#contato">Contato</a></li>
             </ul>
         </nav>
     </header>
-    <section class="banner">
+    <section class="banner" id="home">
 
+            <div class="banner-video">
+                <video autoplay muted loop>
+                    <source src="assets/banner.mp4" type="video/mp4">
+                </video>
+            </div>
         <div class="banner-texto">
             <div class="box-texto">
                 <h2>Vitor</h2>
@@ -50,7 +55,7 @@
             <a href="#" target="_blank"><i class="fa-brands fa-instagram icon-social"></i></a>
         </div>
     </section>
-    <section class="sobre">
+    <section class="sobre" id="sobre">
         <h2 class="titulo-sobre">SOBRE</h2>
 
         <div class="cards-sobre">
@@ -110,7 +115,7 @@
 
         </div>
     </section>
-    <section class="container-skills">
+    <section class="container-skills" id="skills">
         <h2 class="titulo-skills">SKILLS</h2>
         <div class="barra"></div>
         <div class="box-texto_skills right">
@@ -213,9 +218,82 @@
         </div>
 
     </section>
-    <section class="container-projetos">
+    <section class="container-projetos" id="projetos">
         <h2 class="titulo-projetos">PROJETOS</h2>
+
+        <div class="projetos">
+           <!--  <div class="card-projeto">
+                <div class="card-projeto_imagem">
+                    <img class="img" src="./assets/img-json" alt="">
+                </div>
+                <div class="card-projeto_textos">
+                    <h3>Toughts</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias maxime facilis voluptatem aut
+                        sunt! Nam cumque veritatis sit error aspernatur beatae reiciendis, corrupti iusto magni quidem.
+                        Molestias sunt ducimus facere!
+                    </p>
+                    <ul class="lista-tecn">
+                        <li>Node.js</li>
+                        <li>Node.js</li>
+                        <li>Node.js</li>
+                        <li>Node.js</li>
+                    </ul>
+                    <div class="projeto-btns">
+                        <a href="#" target="_blank" class="primeiro">Codigo</a>
+                        <a href="#" target="_blank" class="segundo">Acessar</a>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+        <div class="projeto-botao">Ver Todos os Projetos</div>
     </section>
+    <section class="container-contato" id="contato">
+        <h2 class="titulo-contato"> CONTATO</h2>
+
+        <div class="contato">
+            <div class="contato-info">
+                <div class="contato-info_box telefone">
+                    <h3>Telefone</h3>
+                    <p>(11) 9.9547-3175</p>
+                </div>
+                <div class="contato-info_box email" >
+                    <h3>E-mail</h3>
+                    <p>vitor.martins.1321@gmail.com</p>
+                </div>
+                <div class="contato-info_box whatsapp">
+                    <p>Envie um menssagem, vai ser um prazer conversar com você.</p>
+                </div>
+            </div>
+            <div class="contato-form">
+                <form class="form">
+                    <h3>Envie um e-mail</h3>
+                    <div class="form-control">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" placeholder="Digite seu email">
+                    </div>
+                    <div class="form-control">
+                        <label for="tema">Assunto</label>
+                        <input type="text" name="tema" placeholder="Exemplo: Gostei do seu projeto">
+                    </div>
+                    <div class="form-control">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea name="mensagem" placeholder="Exemplo: seu projeto esta legal mas..."></textarea>
+                    </div>
+                    <input type="submit" value="Enviar" class="btn-input">
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div> Vitor Martins | 2024 </div>
+        <div>
+            <a href="#" target="_blank"><i class="fa-brands fa-linkedin-in icon-social"></i></a>
+            <a href="#" target="_blank"><i class="fa-brands fa-github icon-social"></i></a>
+            <a href="#" target="_blank"><i class="fa-brands fa-instagram icon-social"></i></a>
+            <a href="#" target="_blank"><i class="fa-brands fa-whatsapp icon-social"></i></a>
+        </div>
+    </footer>
     <script src="https://kit.fontawesome.com/5d448974a8.js" crossorigin="anonymous"></script>
 
     <script src="main.js"></script>
