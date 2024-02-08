@@ -3,7 +3,7 @@
 .sobre {
     height: 610px;
     background-color: var(--cor-2);
-    padding: 130px 0;
+    padding: 160px 0;
     position: relative;
 }
 
@@ -18,7 +18,7 @@
     text-align: start;
     position: absolute;
     font-size: 5em;
-    top: 0;
+    top: 30px;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -110,6 +110,9 @@
 }
 
 .card-sobre p{
-    padding: 15px 25px
+    padding: 15px;
+    line-height: 21px;
+    font-size: 18px;
+    color: #e3e2e2;
 }
 
