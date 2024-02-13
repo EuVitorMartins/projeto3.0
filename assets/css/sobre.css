@@ -116,3 +116,11 @@
     color: #e3e2e2;
 }
 
+@media (max-width: 900px){
+    .cards-sobre {
+        grid-template-columns: auto auto;
+    }
+    .card-sobre_imagem{
+        display: none;
+    }
+}

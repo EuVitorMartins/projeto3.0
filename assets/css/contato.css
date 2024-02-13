@@ -169,5 +169,24 @@
 }
 
 
+@media (max-width: 900px){
+    .contato{
+        grid-template-columns: 1fr;
+    }
 
+    .contato-info{
+        margin-bottom: 30px;
+    }
+
+    .contato-info_box{
+        margin-bottom: 10px;
+    }
+
+    .contato-info_box:nth-child( 1 ) {
+        margin-left: -80px;
+    }
+    .contato-info_box:nth-child( 3 ) {
+        margin-left: 80px;
+    }
+}
 

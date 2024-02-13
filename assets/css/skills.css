@@ -116,8 +116,6 @@
     border-top: 1px solid rgba(255, 255, 255, 0.3);
     border-left: 1px solid rgba(255, 255, 255, 0.3);
     box-shadow: 5px 1px 5px rgba(0, 0, 0, 0.5);
-    height: 130px;
-
     margin: 0 auto;
     width: 70%;
 }
@@ -212,4 +210,38 @@
     color: black;
     padding: 3px;
     opacity: .8;
+}
+
+@media (max-width: 900px) {
+ .container-skills{
+    display: block;
+ }
+
+ .box-texto_skills{
+    margin-bottom: 25px;
+ }
+
+ .barra{
+    left: 10%;
+    height: 900px;
+ }
+
+ .box-texto_skills.right::after{
+    left: -7%;
+    width: 7%;
+ }
+
+ .box-texto_skills.right::before{
+    left: -10%;
+ }
+
+ .box-texto_skills.left::after{
+    left: -7%;
+    width: 7%;
+ }
+
+ .box-texto_skills.left::before{
+    left: -7%;
+ }
+
 }
