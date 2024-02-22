@@ -212,7 +212,7 @@
     opacity: .8;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
  .container-skills{
     display: block;
  }
@@ -244,4 +244,8 @@
     left: -7%;
  }
 
+}
+
+@media (max-width: 500px){
+    
 }

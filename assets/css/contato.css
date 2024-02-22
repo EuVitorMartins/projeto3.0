@@ -169,7 +169,7 @@
 }
 
 
-@media (max-width: 900px){
+@media (max-width: 1000px){
     .contato{
         grid-template-columns: 1fr;
     }
@@ -179,14 +179,16 @@
     }
 
     .contato-info_box{
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
 
-    .contato-info_box:nth-child( 1 ) {
-        margin-left: -80px;
-    }
-    .contato-info_box:nth-child( 3 ) {
-        margin-left: 80px;
-    }
+  
 }
 
+@media (max-width: 500px){
+    .contato{
+        margin: 50px;
+    }
+
+   
+}

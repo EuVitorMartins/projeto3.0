@@ -1,20 +1,29 @@
 .header {
     width: 100vw;
     height: 80px;
-    background-color: var(--cor-1);
+    background-color: transparent;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 10000;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);  
-}
-
-.header>nav {
-    height: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 100px;
+    border-bottom: 0px solid transparent;
+
+}
+
+
+.header.ativar {
+    background-color: var(--cor-1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    height: 100%;
 }
 
 .logo {
@@ -35,7 +44,7 @@
     padding: 5px;
 }
 
-.nav-link a{
+.nav-link a {
     color: white;
     transition: all .5s ease-in-out;
 }
@@ -122,3 +131,96 @@
 
 }
 
+.menu-mobile {
+    display: none;
+}
+
+
+@media (max-width: 1000px) {
+    .header{
+        padding: 0 80px;
+    }
+
+    .menu-mobile {
+        display: block;
+        height: 3px;
+        width: 35px;
+        background-color: white;
+        position: relative;
+        transition: all .5s ease-in-out;
+    }
+
+    .menu-mobile::after {
+        content: '';
+        height: 3px;
+        width: 35px;
+        background-color: white;
+        position: absolute;
+        top: 13px;
+        transition: all .5s ease-in-out;
+    }
+
+    .menu-mobile::before {
+        content: '';
+        height: 3px;
+        width: 35px;
+        background-color: white;
+        position: absolute;
+        bottom: 13px;
+        transition: all .5s ease-in-out;
+    }
+
+    .menu-mobile.ativo {
+        background-color: transparent;
+        top: 5px;
+    }
+
+    .menu-mobile.ativo::after {
+        top: -4px;
+        transform: rotateZ(-45deg);
+    }
+
+    .menu-mobile.ativo::before {
+        bottom: 4px;
+        transform: rotateZ(45deg);
+    }
+
+    .nav{
+        position: absolute;
+        right:-100%;
+        top: 100%;
+        align-items: start;
+        justify-content: center;
+        visibility: hidden;
+        width: 40%;
+        height: 600px;
+        border-radius:0 100%;
+        transition: all 1s ease-out;
+        background-color: var(--cor-2);
+        
+    }
+    
+    .nav.ativo{
+        height: 600px;
+        right: 0%;
+        border-radius:0 4px;
+        visibility: visible;
+    }
+    
+    .nav-links{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .nav-link{
+        margin-top: 20px;
+        margin-bottom: 50px;
+        text-align: center;
+        margin-right: 0;
+    }
+
+    .nav-link a {
+        font-size: 2rem;
+    }
+
+}

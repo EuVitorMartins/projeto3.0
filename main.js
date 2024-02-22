@@ -119,4 +119,23 @@ function carregarProjeros() {
     })
 }
 
-// Sections
+// ROLAGEM HEADER 
+
+window.addEventListener("scroll", () => {
+    const header = document.querySelector(".header");
+    header.classList.toggle("ativar", window.scrollY > 0)
+})
+
+
+//MENU MOBILE
+
+const menuMobile =document.querySelector(".icon-menu");
+
+menuMobile.addEventListener("click", () => {
+    const menu = document.querySelector(".menu-mobile");
+    menu.classList.toggle("ativo")
+    
+    const nav = document.querySelector(".nav");
+    nav.classList.toggle("ativo")
+
+})

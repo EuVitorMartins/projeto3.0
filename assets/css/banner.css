@@ -10,23 +10,23 @@
 
 .banner-social {
     position: absolute;
-    right: 2%;
+    right: -5%;
     top: 45%;
     display: flex;
     flex-direction: column;
 }
 
-.banner-social > a{
+.banner-social>a {
     margin-bottom: 15px;
 }
 
-.icon-social{
+.icon-social {
     font-size: 2.5rem;
     opacity: .5;
     transition: all .5s ease-in-out;
 }
 
-.icon-social:hover{
+.icon-social:hover {
     transform: translateY(-5px);
     opacity: 1;
 }
@@ -123,7 +123,8 @@
     padding: 4px;
     border: 3px solid var(--cor-4);
 }
-.banner-video{
+
+.banner-video {
     position: fixed;
     top: 0;
     left: 0;
@@ -132,19 +133,25 @@
     z-index: -1;
 }
 
-.banner-video video{
+.banner-video video {
     width: 100%;
     height: 100vh;
     object-fit: cover;
 }
 
-@media (max-width: 900px) {
-    .banner{
+@media (max-width: 1000px) {
+    .banner {
         height: 800px;
         grid-template-columns: 1fr;
     }
 
-    .banner-image{
+    .banner-image {
         display: none;
     }
-  }
+}
+
+@media (max-width: 500px){
+    .box-texto h1{
+        font-size:  3.8rem;
+    }
+}

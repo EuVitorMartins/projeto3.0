@@ -165,7 +165,7 @@
     }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
     .card-projeto{
         grid-template-columns: 1fr;
         margin-bottom: 50px;
