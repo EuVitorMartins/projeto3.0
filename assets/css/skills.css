@@ -247,5 +247,17 @@
 }
 
 @media (max-width: 500px){
-    
+    .skills-todas ul{
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        margin: 100px 50px;
+    }
+
+    .barra {
+        height: 1083px;
+    }
+
+    .box-texto_skills.right::before {
+        left: -12%;
+    }
 }

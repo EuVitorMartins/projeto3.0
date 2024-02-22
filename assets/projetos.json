@@ -8,14 +8,6 @@
         "linkAcessar": "https://www.linkedin.com/in/eu-vitor-martins/recent-activity/all/"
     },
     {
-        "titulo": "Agenta",
-        "descricao": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias maxime facilis voluptatem aut sunt! Nam cumque veritatis sit error aspernatur beatae reiciendis, corrupti iusto magni quidem. Molestias sunt ducimus facere!",
-        "imagem": "assets/img-json/agenta.png",
-        "techs": [ "Node.js", "Node.js", "Node.js", "Node.js"],
-        "linkCodigo": "https://www.linkedin.com/in/eu-vitor-martins/recent-activity/all/",
-        "linkAcessar": "https://www.linkedin.com/in/eu-vitor-martins/recent-activity/all/"
-    },
-    {
         "titulo": "Pots Node",
         "descricao": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias maxime facilis voluptatem aut sunt! Nam cumque veritatis sit error aspernatur beatae reiciendis, corrupti iusto magni quidem. Molestias sunt ducimus facere!",
         "imagem": "assets/img-json/post-node.png",

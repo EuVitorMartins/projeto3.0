@@ -109,8 +109,7 @@
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
-
-    min-width: 400px;
+    width: 400px;
 }
 
 .form-control {
@@ -190,5 +189,8 @@
         margin: 50px;
     }
 
+    .form {
+        width: 100%;
+    }
    
 }

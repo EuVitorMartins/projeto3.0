@@ -10,3 +10,10 @@
 .footer .icon-social{
     margin: 5px;
 }
+
+@media (max-width: 700px){
+    .footer{
+        padding: 20px;
+    }
+
+}
