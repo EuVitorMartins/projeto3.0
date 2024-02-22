@@ -192,7 +192,7 @@
         align-items: start;
         justify-content: center;
         visibility: hidden;
-        width: 40%;
+        width: 50%;
         height: 600px;
         border-radius:0 100%;
         transition: all 1s ease-out;
@@ -221,6 +221,12 @@
 
     .nav-link a {
         font-size: 2rem;
+    }
+
+    .header {
+        padding: 0px 26px;
+        display: flex;
+        justify-content: space-between;
     }
 
 }
