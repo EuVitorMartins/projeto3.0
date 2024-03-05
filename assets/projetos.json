@@ -1,41 +1,61 @@
 [
     {
-        "titulo": "Toughts 1",
-        "descricao": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias maxime facilis voluptatem aut sunt! Nam cumque veritatis sit error aspernatur beatae reiciendis, corrupti iusto magni quidem. Molestias sunt ducimus facere!",
+        "titulo": "Toughts",
+        "descricao": "Esse aplicação foi desenvolvida com a ideia de ser parecido com o Twitter, onde o usuário crias uma conta e posta o seu pensamento. Um fato interessante que foi ultilizado regra de negócio, que é buscar por palavras-chaves, filtro por mais novo e mais antigo.",
         "imagem": "assets/img-json/toughts.png",
-        "techs": [ "Node.js", "Node.js", "Node.js", "Node.js"],
-        "linkCodigo": "https://www.linkedin.com/in/eu-vitor-martins/recent-activity/all/",
-        "linkAcessar": "https://www.linkedin.com/in/eu-vitor-martins/recent-activity/all/"
+        "techs": [
+            "Node.js",
+            "express",
+            "sequelize",
+            "MySql",
+            "handlebars"
+        ],
+        "linkCodigo": "https://github.com/EuVitorMartins/node-toughts",
+        "linkAcessar": "https://www.linkedin.com/posts/eu-vitor-martins_nodejs-fullstack-desenvolvimentoweb-activity-7158493456372228099-3lhz?utm_source=share&utm_medium=member_desktop"
     },
     {
         "titulo": "Pots Node",
-        "descricao": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias maxime facilis voluptatem aut sunt! Nam cumque veritatis sit error aspernatur beatae reiciendis, corrupti iusto magni quidem. Molestias sunt ducimus facere!",
+        "descricao": "Essa foi o meu primeiro projeto usando Node.js e handobalf, e projeto é simples e pegas os dados de um arquivo json e exibe na tela.",
         "imagem": "assets/img-json/post-node.png",
-        "techs": [ "Node.js", "Node.js", "Node.js", "Node.js"],
+        "techs": [
+            "Node.js",
+            "handlebars",
+            "css",
+            "html"
+        ],
         "linkCodigo": "https://www.linkedin.com/in/eu-vitor-martins/recent-activity/all/",
         "linkAcessar": "https://www.linkedin.com/in/eu-vitor-martins/recent-activity/all/"
     },
     {
         "titulo": "Cobuild",
-        "descricao": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias maxime facilis voluptatem aut sunt! Nam cumque veritatis sit error aspernatur beatae reiciendis, corrupti iusto magni quidem. Molestias sunt ducimus facere!",
+        "descricao": "Esse projeto foi um clone, no final dele tem um link para o site que clonei. Gostei bastante do resultado pois ficou bem parecido.",
         "imagem": "assets/img-json/cobuild.png",
-        "techs": [ "Node.js", "Node.js", "Node.js", "Node.js"],
-        "linkCodigo": "https://www.linkedin.com/in/eu-vitor-martins/recent-activity/all/",
-        "linkAcessar": "https://www.linkedin.com/in/eu-vitor-martins/recent-activity/all/"
+        "techs": [
+            "HTML", "CSS", "JavaScript"
+        ],
+        "linkCodigo": "https://github.com/EuVitorMartins/landing-pages/tree/master/cobuild-clone",
+        "linkAcessar": "https://cobuild-clone.vercel.app/"
     },
     {
         "titulo": "Suplemento",
-        "descricao": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias maxime facilis voluptatem aut sunt! Nam cumque veritatis sit error aspernatur beatae reiciendis, corrupti iusto magni quidem. Molestias sunt ducimus facere!",
+        "descricao": "Esse projeto foi criado 100% por mim, havia acabado de finalizar o curso da Alure de Bootstrap e resolvi colocar em prática o que aprendi. É  um projeto bem simples mas esta responsivo.",
         "imagem": "assets/img-json/suplemento.png",
-        "techs": [ "Node.js", "Node.js", "Node.js", "Node.js"],
-        "linkCodigo": "https://www.linkedin.com/in/eu-vitor-martins/recent-activity/all/",
-        "linkAcessar": "https://www.linkedin.com/in/eu-vitor-martins/recent-activity/all/"
+        "techs": [
+            "HTML", "CSS" ,"Bootstrap"
+        ],
+        "linkCodigo": "https://github.com/EuVitorMartins/landing-pages/tree/master/suplemento-essencial",
+        "linkAcessar": "https://suplemento-essencial.vercel.app/"
     },
     {
         "titulo": "Serenatto",
         "descricao": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias maxime facilis voluptatem aut sunt! Nam cumque veritatis sit error aspernatur beatae reiciendis, corrupti iusto magni quidem. Molestias sunt ducimus facere!",
         "imagem": "assets/img-json/serenatto.png",
-        "techs": [ "Node.js", "Node.js", "Node.js", "Node.js"],
+        "techs": [
+            "Node.js",
+            "Node.js",
+            "Node.js",
+            "Node.js"
+        ],
         "linkCodigo": "https://www.linkedin.com/in/eu-vitor-martins/recent-activity/all/",
         "linkAcessar": "https://www.linkedin.com/in/eu-vitor-martins/recent-activity/all/"
     },
@@ -43,7 +63,12 @@
         "titulo": "Buscar CEP",
         "descricao": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias maxime facilis voluptatem aut sunt! Nam cumque veritatis sit error aspernatur beatae reiciendis, corrupti iusto magni quidem. Molestias sunt ducimus facere!",
         "imagem": "assets/img-json/buscador-de-cep.png",
-        "techs": [ "Node.js", "Node.js", "Node.js", "Node.js"],
+        "techs": [
+            "Node.js",
+            "Node.js",
+            "Node.js",
+            "Node.js"
+        ],
         "linkCodigo": "https://www.linkedin.com/in/eu-vitor-martins/recent-activity/all/",
         "linkAcessar": "https://www.linkedin.com/in/eu-vitor-martins/recent-activity/all/"
     },
@@ -51,7 +76,12 @@
         "titulo": "Rock Buguer",
         "descricao": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias maxime facilis voluptatem aut sunt! Nam cumque veritatis sit error aspernatur beatae reiciendis, corrupti iusto magni quidem. Molestias sunt ducimus facere!",
         "imagem": "assets/img-json/rock-buguer.png",
-        "techs": [ "Node.js", "Node.js", "Node.js", "Node.js"],
+        "techs": [
+            "Node.js",
+            "Node.js",
+            "Node.js",
+            "Node.js"
+        ],
         "linkCodigo": "https://www.linkedin.com/in/eu-vitor-martins/recent-activity/all/",
         "linkAcessar": "https://www.linkedin.com/in/eu-vitor-martins/recent-activity/all/"
     },
@@ -59,7 +89,12 @@
         "titulo": "Portfolio 2.0",
         "descricao": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias maxime facilis voluptatem aut sunt! Nam cumque veritatis sit error aspernatur beatae reiciendis, corrupti iusto magni quidem. Molestias sunt ducimus facere!",
         "imagem": "assets/img-json/portfolio2.0.png",
-        "techs": [ "Node.js", "Node.js", "Node.js", "Node.js"],
+        "techs": [
+            "Node.js",
+            "Node.js",
+            "Node.js",
+            "Node.js"
+        ],
         "linkCodigo": "https://www.linkedin.com/in/eu-vitor-martins/recent-activity/all/",
         "linkAcessar": "https://www.linkedin.com/in/eu-vitor-martins/recent-activity/all/"
     },
@@ -67,7 +102,12 @@
         "titulo": "Pokedex",
         "descricao": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias maxime facilis voluptatem aut sunt! Nam cumque veritatis sit error aspernatur beatae reiciendis, corrupti iusto magni quidem. Molestias sunt ducimus facere!",
         "imagem": "assets/img-json/pokedex.png",
-        "techs": [ "Node.js", "Node.js", "Node.js", "Node.js"],
+        "techs": [
+            "Node.js",
+            "Node.js",
+            "Node.js",
+            "Node.js"
+        ],
         "linkCodigo": "https://www.linkedin.com/in/eu-vitor-martins/recent-activity/all/",
         "linkAcessar": "https://www.linkedin.com/in/eu-vitor-martins/recent-activity/all/"
     },
@@ -75,7 +115,12 @@
         "titulo": "Calculadora IMC",
         "descricao": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias maxime facilis voluptatem aut sunt! Nam cumque veritatis sit error aspernatur beatae reiciendis, corrupti iusto magni quidem. Molestias sunt ducimus facere!",
         "imagem": "assets/img-json/calculadoraIMC.png",
-        "techs": [ "Node.js", "Node.js", "Node.js", "Node.js"],
+        "techs": [
+            "Node.js",
+            "Node.js",
+            "Node.js",
+            "Node.js"
+        ],
         "linkCodigo": "https://www.linkedin.com/in/eu-vitor-martins/recent-activity/all/",
         "linkAcessar": "https://www.linkedin.com/in/eu-vitor-martins/recent-activity/all/"
     },
@@ -83,7 +128,12 @@
         "titulo": "Lanpada",
         "descricao": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias maxime facilis voluptatem aut sunt! Nam cumque veritatis sit error aspernatur beatae reiciendis, corrupti iusto magni quidem. Molestias sunt ducimus facere!",
         "imagem": "assets/img-json/lampada.png",
-        "techs": [ "Node.js", "Node.js", "Node.js", "Node.js"],
+        "techs": [
+            "Node.js",
+            "Node.js",
+            "Node.js",
+            "Node.js"
+        ],
         "linkCodigo": "https://www.linkedin.com/in/eu-vitor-martins/recent-activity/all/",
         "linkAcessar": "https://www.linkedin.com/in/eu-vitor-martins/recent-activity/all/"
     },
@@ -91,7 +141,12 @@
         "titulo": "Portfolio 1.0",
         "descricao": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias maxime facilis voluptatem aut sunt! Nam cumque veritatis sit error aspernatur beatae reiciendis, corrupti iusto magni quidem. Molestias sunt ducimus facere!",
         "imagem": "assets/img-json/portfolio.png",
-        "techs": [ "Node.js", "Node.js", "Node.js", "Node.js"],
+        "techs": [
+            "Node.js",
+            "Node.js",
+            "Node.js",
+            "Node.js"
+        ],
         "linkCodigo": "https://www.linkedin.com/in/eu-vitor-martins/recent-activity/all/",
         "linkAcessar": "https://www.linkedin.com/in/eu-vitor-martins/recent-activity/all/"
     },
@@ -99,7 +154,12 @@
         "titulo": "Site Android",
         "descricao": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias maxime facilis voluptatem aut sunt! Nam cumque veritatis sit error aspernatur beatae reiciendis, corrupti iusto magni quidem. Molestias sunt ducimus facere!",
         "imagem": "assets/img-json/projeto-android.png",
-        "techs": [ "Node.js", "Node.js", "Node.js", "Node.js"],
+        "techs": [
+            "Node.js",
+            "Node.js",
+            "Node.js",
+            "Node.js"
+        ],
         "linkCodigo": "https://www.linkedin.com/in/eu-vitor-martins/recent-activity/all/",
         "linkAcessar": "https://www.linkedin.com/in/eu-vitor-martins/recent-activity/all/"
     }

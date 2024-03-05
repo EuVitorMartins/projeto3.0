@@ -139,3 +139,145 @@ menuMobile.addEventListener("click", () => {
     nav.classList.toggle("ativo")
 
 })
+
+// SCROLL REVEAL CONFIG.
+eventos()
+function eventos() {
+ScrollReveal().reveal('.evento-titulo',{
+    duration: 1000,
+    distance: '50px',
+    opacity: 0.8
+});
+ScrollReveal().reveal('.evento-top',{
+    delay: 500,
+    duration: 1500,
+    distance: '50px',
+});
+ScrollReveal().reveal('.evento-top-2',{
+    delay: 1000,
+    duration: 1500,
+    distance: '50px',
+});
+ScrollReveal().reveal('.evento-top-3',{
+    delay: 1500,
+    duration: 1500,
+    distance: '50px',
+});
+ScrollReveal().reveal('.evento-top-4',{
+    delay: 1800,
+    duration: 1500,
+    distance: '50px',
+});
+
+ScrollReveal().reveal('.evento-right',{
+    delay: 800,
+    duration: 2000,
+    distance: '50px',
+    origin: 'right'
+});
+
+//REVEAL EVENTO LEFR
+ScrollReveal().reveal('.evento-left',{
+    delay: 100,
+    duration: 2000,
+    distance: '50px',
+    origin: 'left'
+});
+ScrollReveal().reveal('.evento-left-2',{
+    delay: 300,
+    duration: 2000,
+    distance: '50px',
+    origin: 'left'
+});
+ScrollReveal().reveal('.evento-left-3',{
+    delay: 500,
+    duration: 2000,
+    distance: '50px',
+    origin: 'left'
+});
+ScrollReveal().reveal('.evento-left-4',{
+    delay: 800,
+    duration: 2000,
+    distance: '50px',
+    origin: 'left'
+});
+ScrollReveal().reveal('.evento-left-5',{
+    delay: 1000,
+    duration: 2000,
+    distance: '50px',
+    origin: 'left'
+});
+ScrollReveal().reveal('.evento-left-6',{
+    delay: 1200,
+    duration: 2000,
+    distance: '50px',
+    origin: 'left'
+});
+ScrollReveal().reveal('.evento-left-7',{
+    delay: 1400,
+    duration: 2000,
+    distance: '50px',
+    origin: 'left'
+});
+ScrollReveal().reveal('.evento-left-8',{
+    delay: 1600,
+    duration: 2000,
+    distance: '50px',
+    origin: 'left'
+});
+ScrollReveal().reveal('.evento-left-9',{
+    delay: 1800,
+    duration: 2000,
+    distance: '50px',
+    origin: 'left'
+});
+ScrollReveal().reveal('.evento-left-10',{
+    delay: 2000,
+    duration: 2000,
+    distance: '50px',
+    origin: 'left'
+});
+ScrollReveal().reveal('.evento-left-11',{
+    delay: 2200,
+    duration: 2000,
+    distance: '50px',
+    origin: 'left'
+});
+ScrollReveal().reveal('.evento-left-12',{
+    delay: 2400,
+    duration: 2000,
+    distance: '50px',
+    origin: 'left'
+});
+ScrollReveal().reveal('.evento-left-13',{
+    delay: 2600,
+    duration: 2000,
+    distance: '50px',
+    origin: 'left'
+});
+ScrollReveal().reveal('.evento-left-14',{
+    delay: 2800,
+    duration: 2000,
+    distance: '50px',
+    origin: 'left'
+});
+ScrollReveal().reveal('.evento-left-15',{
+    delay: 3000,
+    duration: 2000,
+    distance: '50px',
+    origin: 'left'
+});
+ScrollReveal().reveal('.evento-left-16',{
+    delay: 3200,
+    duration: 2000,
+    distance: '50px',
+    origin: 'left'
+});
+ScrollReveal().reveal('.evento-left-17',{
+    delay: 3400,
+    duration: 2000,
+    distance: '50px',
+    origin: 'left'
+});
+
+}
