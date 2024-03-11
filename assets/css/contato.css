@@ -101,7 +101,7 @@
 
 
 .form {
-   
+
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -112,7 +112,7 @@
 .form-control {
     display: flex;
     flex-direction: column;
-    width: 70%;
+    width: 100%;
 }
 
 .form h3 {
@@ -137,7 +137,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.form-control textarea::placeholder{
+.form-control textarea::placeholder {
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -166,29 +166,39 @@
 }
 
 
-@media (max-width: 1000px){
-    .contato{
+@media (max-width: 1000px) {
+    .form {
+        width: 100%;
+    }
+
+    .form-control {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+    }
+
+    .contato {
         grid-template-columns: 1fr;
     }
 
-    .contato-info{
+    .contato-info {
         margin-bottom: 30px;
     }
 
-    .contato-info_box{
+    .contato-info_box {
         margin-bottom: 20px;
     }
 
-  
+
 }
 
-@media (max-width: 500px){
-    .contato{
+@media (max-width: 500px) {
+    .contato {
         margin: 50px;
     }
 
     .form {
         width: 100%;
     }
-   
+
 }

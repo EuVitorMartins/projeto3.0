@@ -166,6 +166,9 @@
 }
 
 @media (max-width: 1000px) {
+    .titulo-projetos{
+        font-size: 4em;
+    }
     .card-projeto{
         grid-template-columns: 1fr;
         margin-bottom: 50px;

@@ -1,11 +1,10 @@
 [
     {
         "titulo": "Toughts",
-        "descricao": "Esse aplicação foi desenvolvida com a ideia de ser parecido com o Twitter, onde o usuário crias uma conta e posta o seu pensamento. Um fato interessante que foi ultilizado regra de negócio, que é buscar por palavras-chaves, filtro por mais novo e mais antigo.",
+        "descricao": "Esse aplicação foi desenvolvida com a ideia de ser parecido com o Twitter, onde o usuário crias uma conta e posta o seu pensamento. Um fato interessante que foi ultilizado regra de negócio, que é buscar e filtro.",
         "imagem": "assets/img-json/toughts.png",
         "techs": [
             "Node.js",
-            "express",
             "sequelize",
             "MySql",
             "handlebars"
@@ -23,15 +22,17 @@
             "css",
             "html"
         ],
-        "linkCodigo": "https://www.linkedin.com/in/eu-vitor-martins/recent-activity/all/",
-        "linkAcessar": "https://www.linkedin.com/in/eu-vitor-martins/recent-activity/all/"
+        "linkCodigo": "",
+        "linkAcessar": ""
     },
     {
         "titulo": "Cobuild",
         "descricao": "Esse projeto foi um clone, no final dele tem um link para o site que clonei. Gostei bastante do resultado pois ficou bem parecido.",
         "imagem": "assets/img-json/cobuild.png",
         "techs": [
-            "HTML", "CSS", "JavaScript"
+            "HTML",
+            "CSS",
+            "JavaScript"
         ],
         "linkCodigo": "https://github.com/EuVitorMartins/landing-pages/tree/master/cobuild-clone",
         "linkAcessar": "https://cobuild-clone.vercel.app/"
@@ -41,126 +42,120 @@
         "descricao": "Esse projeto foi criado 100% por mim, havia acabado de finalizar o curso da Alure de Bootstrap e resolvi colocar em prática o que aprendi. É  um projeto bem simples mas esta responsivo.",
         "imagem": "assets/img-json/suplemento.png",
         "techs": [
-            "HTML", "CSS" ,"Bootstrap"
+            "HTML",
+            "CSS",
+            "Bootstrap"
         ],
         "linkCodigo": "https://github.com/EuVitorMartins/landing-pages/tree/master/suplemento-essencial",
         "linkAcessar": "https://suplemento-essencial.vercel.app/"
     },
     {
         "titulo": "Serenatto",
-        "descricao": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias maxime facilis voluptatem aut sunt! Nam cumque veritatis sit error aspernatur beatae reiciendis, corrupti iusto magni quidem. Molestias sunt ducimus facere!",
+        "descricao": "Esse foi um desafio que realizei enquanto estava fazendo o curso da alura de Bootstrap, era para clonar a landing page  de uma cafeteria.",
         "imagem": "assets/img-json/serenatto.png",
         "techs": [
-            "Node.js",
-            "Node.js",
-            "Node.js",
-            "Node.js"
+            "HTML",
+            "CSS",
+            "Bootstrap"
         ],
-        "linkCodigo": "https://www.linkedin.com/in/eu-vitor-martins/recent-activity/all/",
-        "linkAcessar": "https://www.linkedin.com/in/eu-vitor-martins/recent-activity/all/"
+        "linkCodigo": "",
+        "linkAcessar": ""
     },
     {
         "titulo": "Buscar CEP",
-        "descricao": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias maxime facilis voluptatem aut sunt! Nam cumque veritatis sit error aspernatur beatae reiciendis, corrupti iusto magni quidem. Molestias sunt ducimus facere!",
+        "descricao": "Esse projeto é um clássico, ele foi desenvolvido para conectar com uma API que busca o CEP. Para conectar, usei o Axios. Além de facilitar na hora de conectar em uma API, é bastante prático.",
         "imagem": "assets/img-json/buscador-de-cep.png",
         "techs": [
-            "Node.js",
-            "Node.js",
-            "Node.js",
+            "React.Js",
+            "Axios",
+            "CSS",
             "Node.js"
         ],
-        "linkCodigo": "https://www.linkedin.com/in/eu-vitor-martins/recent-activity/all/",
-        "linkAcessar": "https://www.linkedin.com/in/eu-vitor-martins/recent-activity/all/"
+        "linkCodigo": "https://github.com/EuVitorMartins/Buscador-de-CEP",
+        "linkAcessar": "https://buscador-de-cep-wine-one.vercel.app/"
     },
     {
         "titulo": "Rock Buguer",
-        "descricao": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias maxime facilis voluptatem aut sunt! Nam cumque veritatis sit error aspernatur beatae reiciendis, corrupti iusto magni quidem. Molestias sunt ducimus facere!",
+        "descricao": "Esse projeto foi desenvolvido com React, a ideia dele é como se fosse de um hambúrguer. Eu usei o React Router para distribuir as rotas e ele está responsivo para móbile.",
         "imagem": "assets/img-json/rock-buguer.png",
         "techs": [
-            "Node.js",
-            "Node.js",
-            "Node.js",
-            "Node.js"
+            "React",
+            "CSS",
+            "JSON"
         ],
-        "linkCodigo": "https://www.linkedin.com/in/eu-vitor-martins/recent-activity/all/",
-        "linkAcessar": "https://www.linkedin.com/in/eu-vitor-martins/recent-activity/all/"
+        "linkCodigo": "https://github.com/EuVitorMartins/rock-buguer",
+        "linkAcessar": "https://rock-buguer.vercel.app/"
     },
     {
         "titulo": "Portfolio 2.0",
-        "descricao": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias maxime facilis voluptatem aut sunt! Nam cumque veritatis sit error aspernatur beatae reiciendis, corrupti iusto magni quidem. Molestias sunt ducimus facere!",
+        "descricao": "Os meus portfólios são divididos em versão. O portfólio 2.0 foi desenvolvido depois de 6 meses, me dedicando na programação, ele está responsivos para mobile.",
         "imagem": "assets/img-json/portfolio2.0.png",
         "techs": [
-            "Node.js",
-            "Node.js",
-            "Node.js",
-            "Node.js"
+            "HTML",
+            "CSS",
+            "JavaScript"
         ],
-        "linkCodigo": "https://www.linkedin.com/in/eu-vitor-martins/recent-activity/all/",
-        "linkAcessar": "https://www.linkedin.com/in/eu-vitor-martins/recent-activity/all/"
+        "linkCodigo": "https://github.com/EuVitorMartins/Portfolio2.0",
+        "linkAcessar": "https://portfolio-vitor-one.vercel.app/"
     },
     {
         "titulo": "Pokedex",
-        "descricao": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias maxime facilis voluptatem aut sunt! Nam cumque veritatis sit error aspernatur beatae reiciendis, corrupti iusto magni quidem. Molestias sunt ducimus facere!",
+        "descricao": "Esse é um clássico, talvez seja o projeto que mais me diverti fazendo. Essa API é bem famosa, o nome dela é PokeAPI, assim como um bom faz de Pokémon, desenvolvi o projeto como se fosse um pokedex.",
         "imagem": "assets/img-json/pokedex.png",
         "techs": [
-            "Node.js",
-            "Node.js",
-            "Node.js",
-            "Node.js"
+            "HTML",
+            "CSS",
+            "JavaScript"
         ],
-        "linkCodigo": "https://www.linkedin.com/in/eu-vitor-martins/recent-activity/all/",
-        "linkAcessar": "https://www.linkedin.com/in/eu-vitor-martins/recent-activity/all/"
+        "linkCodigo": "https://github.com/EuVitorMartins/Pokedex",
+        "linkAcessar": "https://euvitormartins.github.io/Pokedex/"
     },
     {
         "titulo": "Calculadora IMC",
-        "descricao": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias maxime facilis voluptatem aut sunt! Nam cumque veritatis sit error aspernatur beatae reiciendis, corrupti iusto magni quidem. Molestias sunt ducimus facere!",
+        "descricao": "Essa é uma calculadora IMC, que irá calcular o seu Índice de Massa Corpórea. Calculadora irá mostrar se você está abaixo do peso, peso adequado, acima do peso, obesidade de gral I, II ou III.",
         "imagem": "assets/img-json/calculadoraIMC.png",
         "techs": [
-            "Node.js",
-            "Node.js",
-            "Node.js",
-            "Node.js"
+            "HTML",
+            "CSS",
+            "JavaScript"
         ],
-        "linkCodigo": "https://www.linkedin.com/in/eu-vitor-martins/recent-activity/all/",
-        "linkAcessar": "https://www.linkedin.com/in/eu-vitor-martins/recent-activity/all/"
+        "linkCodigo": "https://github.com/EuVitorMartins/CalculadoraIMC",
+        "linkAcessar": "https://euvitormartins.github.io/CalculadoraIMC/"
     },
     {
         "titulo": "Lanpada",
-        "descricao": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias maxime facilis voluptatem aut sunt! Nam cumque veritatis sit error aspernatur beatae reiciendis, corrupti iusto magni quidem. Molestias sunt ducimus facere!",
+        "descricao": "Esse é um projeto bem antigo, se trata de uma lâmpada que liga e desliga e com 2 cliques nela, ela vai quebrar. ",
         "imagem": "assets/img-json/lampada.png",
         "techs": [
-            "Node.js",
-            "Node.js",
-            "Node.js",
-            "Node.js"
+            "HTML",
+            "CSS",
+            "JavaScript"
         ],
-        "linkCodigo": "https://www.linkedin.com/in/eu-vitor-martins/recent-activity/all/",
-        "linkAcessar": "https://www.linkedin.com/in/eu-vitor-martins/recent-activity/all/"
+        "linkCodigo": "https://github.com/EuVitorMartins/lampada",
+        "linkAcessar": "https://euvitormartins.github.io/lampada/"
     },
     {
         "titulo": "Portfolio 1.0",
-        "descricao": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias maxime facilis voluptatem aut sunt! Nam cumque veritatis sit error aspernatur beatae reiciendis, corrupti iusto magni quidem. Molestias sunt ducimus facere!",
+        "descricao": "Esse foi o meu primeiro portfólio com apenas 2 meses de programação desenvolvi, não tem muito o que falar dele, pois é um projeto simples, ainda não tinha ideia de responsividade.",
         "imagem": "assets/img-json/portfolio.png",
         "techs": [
-            "Node.js",
-            "Node.js",
-            "Node.js",
-            "Node.js"
+            "HTML",
+            "CSS",
+            "JavaScript"
         ],
-        "linkCodigo": "https://www.linkedin.com/in/eu-vitor-martins/recent-activity/all/",
-        "linkAcessar": "https://www.linkedin.com/in/eu-vitor-martins/recent-activity/all/"
+        "linkCodigo": "https://github.com/EuVitorMartins/Portfolio",
+        "linkAcessar": "https://portfolio-two-teal-68.vercel.app/"
     },
     {
         "titulo": "Site Android",
-        "descricao": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias maxime facilis voluptatem aut sunt! Nam cumque veritatis sit error aspernatur beatae reiciendis, corrupti iusto magni quidem. Molestias sunt ducimus facere!",
+        "descricao": "Esse é um projeto bem básico, porém para mim existe um grande significado. Foi o primeiro projeto que desenvolvi. É bem simples, mas com responsividade para plataformas.",
         "imagem": "assets/img-json/projeto-android.png",
         "techs": [
-            "Node.js",
-            "Node.js",
-            "Node.js",
-            "Node.js"
+            "HTML",
+            "CSS",
+            "JavaScript"
         ],
-        "linkCodigo": "https://www.linkedin.com/in/eu-vitor-martins/recent-activity/all/",
-        "linkAcessar": "https://www.linkedin.com/in/eu-vitor-martins/recent-activity/all/"
+        "linkCodigo": "https://github.com/EuVitorMartins/projeto-android",
+        "linkAcessar": "https://euvitormartins.github.io/projeto-android/"
     }
 ]
