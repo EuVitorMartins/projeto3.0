@@ -29,6 +29,7 @@
 body{
     background-color: var(--cor-3);
     font-family: 'Roboto', sans-serif;
+    verflow-x: none;
 }
 
 html{
