@@ -24,6 +24,7 @@
     box-sizing: border-box;
     text-decoration: none;
     color: var(--cor-branco);
+    overflow-x: none;
 }
 
 body{
