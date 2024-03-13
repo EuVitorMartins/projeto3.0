@@ -24,11 +24,13 @@
     box-sizing: border-box;
     text-decoration: none;
     color: var(--cor-branco);
+    overflow-x: none;
 }
 
 body{
     background-color: var(--cor-3);
     font-family: 'Roboto', sans-serif;
+    overflow-x: none;
 }
 
 html{

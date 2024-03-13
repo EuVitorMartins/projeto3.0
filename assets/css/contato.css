@@ -171,6 +171,10 @@
         width: 100%;
     }
 
+    .titulo-contato {
+        font-size: 4em;
+    }
+
     .form-control {
         display: flex;
         flex-direction: column;
